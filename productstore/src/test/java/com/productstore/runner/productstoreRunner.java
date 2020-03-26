@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "src/main/resources/feature/product.feature",
+features = "C:\Users\Likhitha\git\flash\productstore\src\main\resources\feature\product.feature",
 plugin = { "pretty", "html:reports/cucumber-html-report" ,"json:reports/cucumber-html-report/jsonreport",
 "com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html"},
 
